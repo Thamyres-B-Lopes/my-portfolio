@@ -76,7 +76,13 @@
 .navbar nav ul a:hover{
   color: purple;
 }
-
+.logo h1{
+  color: purple;
+  
+}
+.logo h2{
+  color:#a187ba;
+}
 body{
   font-family: 'Chakra Petch', sans-serif;
   font-size: 1.125rem;
@@ -84,22 +90,22 @@ body{
   display: -moz-grid;
   display:-ms-grid;
   display: grid;
-padding: 2%;
+  padding: 2%;
   
   place-items: center;
   
   background-color: black;
   color: white;
 }
-#container{
+.container{
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
-  display: flex;
+  display:block;
 
   width: 90%;
   max-width:1100px ;
-  align-items: center;
+
   gap: 2rem;
 }
 .avatar img{
@@ -109,6 +115,7 @@ padding: 2%;
   border-radius: 50%;
   filter: grayscale(1);
   transition: all 500ms ease-in-out;
+  vertical-align: top;
 }
 .avatar img:hover,
 .avatar img:focus{
@@ -116,6 +123,7 @@ padding: 2%;
 }
 .about{
   margin-bottom: 2rem;
+
 }
 
 }
@@ -123,8 +131,8 @@ padding: 2%;
   font-weight: 400;
 }
 p{
-  margin-bottom: justify;
-  text-align: justify;
+  margin-bottom: right;
+
   
 }
 .social img{
