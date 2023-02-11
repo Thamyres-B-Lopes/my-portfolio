@@ -1,97 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
-  <link href="assets/style/style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <title>Portfólio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Thamyres Lopes|Desenvolvedora Front-end</title>
 </head>
 
 <body>
-  <div class="navbar">
-    <nav>
-    
-      <ul>
+  <!-- Navbar -->
+  <nav>
+    <h1>Thamyres Barbosa Lopes</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">Sobre</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projetos</a></li>
+      <li><a href="#contact" class="nav-link">Contato</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
 
-        <li><a href="index.html">inicio </a> </li>
-        <li><a href="Projetos.html"> Projetos</a> </li>
-        <li><a href="Contato.html">Contato </a></li>
-        <div class="list">
+  </nav>
 
-
-        </div>
-      </ul>
-    </nav>
-
-  </div>
-    
-  <main class="container">
   
-    <div class="avatar">
-      <img src="assets/img/Avatar.png" alt="avatar person">
-    </div>
-    <div class="logo">
-        <h1><span class="material-symbols-outlined">
-code
-</span> Thamyres Barbosa Lopes</h1>
-        <h2> Desenvolvedora Front-end</h2>
-
-      </div>
-    <div class="info">
-      <div class="about">
-        <h3 class="name"> Sobre mim </h3>
-
-      </div>
-      <p class="description">Olá, me chamo Thamyres, tenho 25 anos, nasci na capital de São Paulo, mas
-        moro em Itajubá interior de Minas deis dos meus 12 anos com meus pais e um irmão. No meu tempo livre gosto muito
-        de ler, assistir filmes, series, animes e me interesso muito por games.</p>
-        <p>Atualmente trabalho para uma empresa de telecomunicações no período matutino e estudo desenvolvimento de
-        sistemas no período vespertino pelo projeto do governo Trilhas do futuro no Senac em Itajubá. Me descobri na
-        programação e na área de tecnologia através dos jogos eletrônicos principalmente os de aventura e jogos online
-        que é um dos meus hobbies favoritos deis da infância e adolescência.
-       
+  <section class="hero" id="about">
+    <img src="assets/img/avatar.png" alt="imagem de uma menina com cabelos compridos, sorrindo" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">Sobre mim</h2>
+      <p class="bio-text">
+        Olá! Meu nome é Thamyres, sou uma desenvolvedora front-end que atualmente estuda HTML, CSS,
+        JavaScript e React.js. Neste portfólio estou mostrando minhas habilidades para criar projetos
+        responsivos e implementar
+        ideias criativas através do código!
       </p>
-      <p class="description"> A minha trajetória na programação não é recente pois em 2016 inicie um curso técnico em informática e foi com
-        ele que tive o meu primeiro contato com a programação, porém achei que aquilo não era para mim por conta da
-        complexidade e por não estar no estereótipo que colocam nas pessoas que trabalham e sempre ocupam lugar na área
-        da programação. Felizmente hoje em dia vemos muita representatividade no meio da programação pelo Youtube e
-        pelas demais redes sociais, como a Simara Conceição, programadora Front-end da thoughtworks que foi uma das
-        principais pessoas que serviram como fonte de inspiração para que eu continuasse trilhando o caminho cheio de
-        aprendizados no mundo da programação.</p>
-       <p> Para o futuro espero continuar estudando e me atualizando no desenvolvimento de softwares mais especificamente no Front- end e
-        desenvolvimento de jogos e com isso estagiar na aréa para colocar em pratica tudo que aprendi no decorrer do curso e com isso
-        adquirir experiência profissional na carreira como pessoa desenvolvedora e 
- também contribuir com o mercado de tecnologia com soluçoes para problemas do dia a dia de uma maneira inovadora.</p>
+    </div>
+  </section>
 
-     
+  
+  <section class="more-about">
+    <h2>Mais sobre mim</h2>
+    </h2>
+    <p>
+      As principais ferramentas atualmente utilizadas por mim são HTML, CSS, JavaScript, Git e Figma.
+    </p>
+
+    <p>
+      Meus hobbies incluem ler,jogar, assistir programas de TV e passar bons momentos com amigos e família!
+    </p>
+  </section>
+
+  
+  <section class="skills" id="skills">
+    <h2 class="skill-header"> Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/img/html.svg" alt="icon do logo de HTML" class="icon icon-card" />
+        <img src="assets/img/css.svg" alt="icon do logo de CSS" class="icon icon-card" />
+        <img src="assets/img/javascript.svg" alt="icon do logo de JavaScript" class="icon icon-card" />
+
+        <img src="assets/img/react.svg" alt="icon do logo de React" class="icon icon-card" />
+        <img src="assets/img/git.svg" alt="icon do logo de Git" class="icon icon-card" />
+        <img src="assets/img/figma.svg" alt="icon do logo de Figma" class="icon icon-card" />
+        <img src="assets/img/github2.svg" alt="icon do logo de Github" class="icon icon-card" />
       </div>
     </div>
+  </section>
 
-    
-  </main>
-
-  <footer>
-    <div class="social">
-      <a href="https://github.com/Thamyres-B-Lopes"><img src="assets/img/github.svg"></a>
-      <a href="#" class="Links"><img src="assets/img/instagram.svg"></a>
-      <a href="https://www.linkedin.com/in/thamyres-barbosa-lopes-243939204/" class="Links"><img
-          src="assets/img/linkedin.svg"></a>
-
+  
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Estes são alguns dos meus projetos</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src=".." alt="tribute-page" class="project-pic" />
+        <h3 class="project-title">Pagina de Tributo</h3>
+        <p class="project-details">
+          Para este projeto, usei HTML e CSS para criar uma página de homenagem dedicada a Angela Davis.
+        </p>
+        <a href="" target="_blank" class="project-link">Confira</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="..." alt="Countdown" class="project-pic" />
+        <h3 class="project-title"></h3>
+        <p class="project-details">
+          Para este projeto, usei HTML e CSS para criar um Countdown.
+        </p>
+        <a href="https://github.com/Thamyres-B-Lopes/countdown-rocketseat.git" target="_blank" class="">Confira</a>
+      </div>
+      <div class="project-container project-card">
+        <img src=".." alt="Sidebar" class="project-pic" />
+        <h3 class="project-title">Sidebar</h3>
+        <p class="project-details">
+          Para este projeto, usei HTML, CSS e JavaScript para criar um sidebar responsivo.
+        </p>
+        <a href="https://github.com/Thamyres-B-Lopes/Sidebar.git" target="_blank" class="project-link">Confira</a>
+      </div>
     </div>
-    <p>Feito com ❤ por Thamyres</p>
+  </section>
 
 
+  <section class="contact" id="contact">
+    <h2>Entre em contato comigo!</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/myyollpl" method="POST">
+          <div class="form-control">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="sender-name" placeholder="Digite seu nome"class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Digite seu email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Mensagem</label>
+            <textarea id="message" cols="60" rows="10" placeholder="
+Digite sua mensagem" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Enviar" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
 
+
+  <div class="socials">
+    <a href="https://www.instagram.com/thamy.json/" target="_blank"><img src="assets/img/instagram.svg"
+        alt="Instagram" class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/thamyres-barbosa-lopes-243939204/" target="_blank"><img
+        src="assets/img/linkedin.svg" alt="Linkedin" class="socicon" /></a>
+    <a href="https://github.com/Thamyres-B-Lopes" target="_blank"><img src="assets/img/github.svg" alt="Github"
+        class="socicon" /></a>
+  </div>
+
+
+  
+  <footer>
+    <p class="copy">&copy; Copyright 2023</p>
+    <p class="copy">Feito com ❤ por Thamyres
+    </p>
   </footer>
 
-  <script src="script.js"></script>
+  
+  <script src="assets/js/script.jsjs"></script>
 
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
