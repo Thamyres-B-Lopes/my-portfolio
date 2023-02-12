@@ -2,7 +2,7 @@
 
 # Objetivo do projeto
 
-   * Este repositório tem o intuito de apresentar meu portfólio e com ele demonstrar algumas das habilidades e compentencias que adquiri no decorrer da minha trajetoria de aprendizados na programação.
+   * Este repositório tem o intuito de apresentar meu portfólio e com ele demonstrar algumas das habilidades e competências que adquiri no decorrer da minha trajetoria de aprendizados na programação.
 
 # Recursos utilizados nessa aplicação
   *  template do [Kolade Chris](https://github.com/Ksound22) para inspiração
